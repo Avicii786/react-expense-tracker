@@ -10,7 +10,7 @@ function App() {
   return (
 
     <GlobalProvider >
-      <button onClick={window.location.href = ""} className='forkme'>Fork Me</button>
+      <button onClick={() => { window.open("https://github.com/Avicii786/react-expense-tracker", "_blank") }} className='forkme'>Fork Me</button>
       <Header></Header>
       <div className="container">
         <Balance />
