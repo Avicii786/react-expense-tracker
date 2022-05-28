@@ -175,18 +175,18 @@ input[type="number"] {
 .forkme {
   background-color: black;
   color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding: 10px 20px;
   position: absolute;
-  top: 50px;
+  top: 0;
   right: 0;
-  transform: rotate(45deg);
+  /* transform: rotate(45deg); */
   cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .forkme:hover {
   background-color: green;
   color: white;
   border: none;
+  transform: translate(-10px, 10px);
 }
